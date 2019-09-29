@@ -1,0 +1,15 @@
+new entry "Stats_FrostAura"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "MagicArmor" "12"
+data "Flags" "SlippingImmunity"
+data "StatusIcon" "statIcons_FrostAura"
+
+new entry "Stats_HealingTears"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "VitalityBoost" "10"
+data "MagicArmorBoost" "15"
+

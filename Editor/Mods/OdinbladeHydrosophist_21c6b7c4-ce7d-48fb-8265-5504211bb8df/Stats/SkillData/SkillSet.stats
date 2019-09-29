@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_IceElemental" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_OdinWater_Summon_HailStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_IceElemental_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinWater_Summon_FreezingTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_IceElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinWater_Summon_FrostyShell" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_IceElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinWater_Frostblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rush_BatteringRam" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Atlantean" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Restoration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Atlantean" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinWater_FreezingTouch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinWater_Frostblade" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FrostyShell" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_OdinWater_Bubblebeam" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rain_Water" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Restoration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Icevein" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Icevein_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinWater_FreezingTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Icevein" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FrostyShell" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_Class_Icevein" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

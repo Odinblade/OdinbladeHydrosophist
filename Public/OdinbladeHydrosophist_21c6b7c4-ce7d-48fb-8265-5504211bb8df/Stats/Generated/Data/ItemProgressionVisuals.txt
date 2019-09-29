@@ -1,0 +1,94 @@
+new itemgroup "OdinWater_Tridents_2H"
+
+add levelgroup 1,3,"Common"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341",""
+add namegroup "OdinWater_ImprovisedTrident","",""
+
+add levelgroup 4,7,"Common"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesCommon"
+add namegroup "OdinWater_CommonTrident","",""
+
+add levelgroup 8,11,"Common"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","HumansStaffACommon"
+add namegroup "OdinWater_CommonTrident","",""
+
+add levelgroup 12,15,"Common"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","ElvesShieldUncommon"
+add namegroup "OdinWater_CommonTrident","",""
+
+add levelgroup 16,0,"Common"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesCommon"
+add namegroup "OdinWater_CommonTrident","",""
+
+add levelgroup 1,3,"Uncommon"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","ElvesShieldUncommon"
+add namegroup "OdinWater_UncommonTrident","",""
+
+add levelgroup 4,7,"Uncommon"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesUncommon"
+add namegroup "OdinWater_UncommonTrident","",""
+
+add levelgroup 8,11,"Uncommon"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","LizardsStaffBUncommon"
+add namegroup "OdinWater_UncommonTrident","",""
+
+add levelgroup 12,15,"Uncommon"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesUncommon"
+add namegroup "OdinWater_UncommonTrident","",""
+
+add levelgroup 16,18,"Uncommon"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","ElvesStaffBUncommon"
+add namegroup "OdinWater_UncommonTrident","",""
+
+add levelgroup 19,0,"Uncommon"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","HumansStaffBUncommon"
+add namegroup "OdinWater_UncommonTrident","",""
+
+add levelgroup 1,3,"Rare"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesRare"
+add namegroup "OdinWater_RareTrident","",""
+
+add levelgroup 4,7,"Rare"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","LizardsStaffBRare"
+add namegroup "OdinWater_RareTrident","",""
+
+add levelgroup 8,11,"Rare"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesRare"
+add namegroup "OdinWater_RareTrident","",""
+
+add levelgroup 12,15,"Rare"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","ElvesStaffBRare"
+add namegroup "OdinWater_RareTrident","",""
+
+add levelgroup 16,18,"Rare"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","HumansStaffBRare"
+add namegroup "OdinWater_RareTrident","",""
+
+add levelgroup 19,0,"Rare"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","LizardsStaffBRare"
+add namegroup "OdinWater_RareTrident","",""
+
+add levelgroup 1,3,"Epic"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","LizardsStaffBEpic"
+add namegroup "OdinWater_EpicTrident","",""
+
+add levelgroup 4,7,"Epic"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesEpic"
+add namegroup "OdinWater_EpicTrident","",""
+
+add levelgroup 8,11,"Epic"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","ElvesStaffBEpic"
+add namegroup "OdinWater_EpicTrident","",""
+
+add levelgroup 12,15,"Epic"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","HumansStaffBEpic"
+add namegroup "OdinWater_EpicTrident","",""
+
+add levelgroup 16,18,"Epic"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","LizardsStaffBEpic"
+add namegroup "OdinWater_EpicTrident","",""
+
+add levelgroup 19,0,"Epic"
+add rootgroup "6006202f-0bc9-4b90-a8a4-f8720a363341","DwarvesEpic"
+add namegroup "OdinWater_EpicTrident","",""
+

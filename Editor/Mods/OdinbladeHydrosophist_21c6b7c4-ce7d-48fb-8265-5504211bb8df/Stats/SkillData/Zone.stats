@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4fcdf163-88be-40b5-bf02-680ac5d776d9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Waterfall" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Douse;WET,100,1;IF(Enemy):OdinWater_DROWNING,100,2;" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="Death Type" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Surface Type" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Dead;" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBHYDRO_Skill_Waterfall" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Waterfall" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A wall of roaring water moves across the battlefield, dealing [1] and leaving a &lt;font color=&quot;#4197e2&quot;&gt;water surface&lt;/font&gt; in its wake. &lt;br&gt;&lt;br&gt;Hitting an enemy with this skill applies &lt;font color=&quot;#4197e2&quot;&gt;Drowning&lt;/font&gt; for 2 turns, dealing [2] each turn." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Weapon:Damage_OdinWater_Drowning:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Water_Root_01;OdinWater_Prepare_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_beam_fire_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="castsurface" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="OdinWater_Zone_01:Dummy_Custom_Anim;RS3_FX_SubEffects_KrakenRay_WaterErupsion_01:Dummy_Custom_Anim;RS3_FX_SubEffects_KrakenRay_WaterSplashes_01:Dummy_Custom_Anim;" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="Shape" type="StringStatObjectFieldDefinition" value="Square" />
+        <field name="BackStart" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="FrontOffset" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Base" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

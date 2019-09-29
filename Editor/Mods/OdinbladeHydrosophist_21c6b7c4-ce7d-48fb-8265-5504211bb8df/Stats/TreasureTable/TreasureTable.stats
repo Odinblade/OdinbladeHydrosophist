@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e4012e18-6a6b-4f40-aefa-c83b078c136c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_Bubblebeam" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_HailStrike" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_FreezingTouch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_Frostblade" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_Rain" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_Restoration" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_FrostyShell" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_0" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_IceFan" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_IceShard" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_2" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_HarshCurrent" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_3" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_ArcticRoar" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_4" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_WinterBlast" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_5" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_FrostAura" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_6" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_ConjureIceElemental" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_7" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_DampeningWave" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_8" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_ChainHeal" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_9" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_FrozenBulwark" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_10" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_GlobalCooling" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_11" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_CryogenicStasis" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_12" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_IceWall" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_13" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_SteamLance" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_14" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_Rebuke" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_15" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_FuryOfTheNorth" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_16" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_Whirlpool" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_17" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_Waterspout" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_18" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_SongOfTheSeas" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_19" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_ArcaneStitch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_20" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_OdinWater_ReleaseTheKraken" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_21" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_Waterfall" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_22" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_Shatter" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_23" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_IceBreaker" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_24" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_RingOfFrost" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_25" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_PrismaticBubble" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_26" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_RideTheTide" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_27" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_HailAttack" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_28" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_CleanseWounds" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_29" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_Cryotherapy" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_30" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_HealingTears" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_31" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_VampiricHunger" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_32" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_MassCleanseWounds" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_33" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_MassCryotherapy" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_34" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_VampiricHungerAura" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_35" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_IcyVeins" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_Trader_substat_36" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_AegisAssault" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWater_Trader" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWater_Trident" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinSpectreWeapon_substat_0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWater_Trident" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinSpectreWeapon_substat_1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWater_Trident" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="0,1;1,1;2,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinSpectreWeapon_substat_2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWater_Trident" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Epic" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_0" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_1H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_1H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_1H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="0,1;1,1;2,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_1H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Epic" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_2H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_2H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_6" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_2H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="0,1;1,1;2,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWaterWeapon_substat_7" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinWATER_Swords_Water_2H" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Epic" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinWaterWeapon" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

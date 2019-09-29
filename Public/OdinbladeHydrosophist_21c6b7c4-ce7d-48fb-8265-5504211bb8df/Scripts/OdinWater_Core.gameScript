@@ -1,0 +1,55 @@
+INIT
+
+EVENTS
+	
+//STATUS -> PERMAFROST/DEEPFREEZE
+EVENT OdinWater_Cryogenesis
+VARS
+CHARACTER:_Character
+
+ON
+	OnCharacterStatusRemoved(_Character, OdinWater_DEEPFREEZE)
+	OnCharacterStatusRemoved(_Character, PERMAFROST)
+ACTIONS
+	CharacterApplyStatus(_Character, CHILLED, 1, 0)
+	
+//SKILL -> STEAMLANCE
+EVENT OdinWater_SteamLance
+VARS
+CHARACTER:_Character
+
+ON
+	OnSkillCast(_Character, Cone_SteamLance)
+ACTIONS
+	CharacterApplyStatus(_Character, STEAM_LANCE, 3, 1, _Character)
+	
+//STATUS -> ROOTED
+EVENT OdinWater_Status_Rooted
+VARS
+CHARACTER:_Character
+
+ON
+	OnCharacterStatusApplied(_Character, WARM)
+	OnCharacterStatusApplied(_Character, BURNING)
+	OnCharacterStatusApplied(_Character, NECROFIRE)
+ACTIONS
+	CharacterRemoveStatus(_Character, OdinWater_ROOTED)
+
+//SKILL -> HARSH_CURRENT
+//EVENT OdinWater_Skill_HarshCurrent
+//VARS
+//CHARACTER:_Character
+//
+//ON
+//	OnSkillCast(_Character, Shout_OdinWater_HarshCurrent)
+//ACTIONS
+//	CharacterEvent(_Character, "OdinWATER_HARSHCURRENT")
+	
+EVENT OdinWater_Skill_HarshCurrent_VFX
+VARS
+CHARACTER:_Character
+
+ON
+	OnSkillCast(_Character, Shout_OdinWater_HarshCurrent_Push)
+ACTIONS
+	CharacterPlayEffect(_Character,"OdinWater_Cast_Shout_04", "root")

@@ -1,0 +1,47 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION OBHYDRO_Skill_HarshCurrent
+IF
+SkillCast(_Character, "Shout_OdinWater_HarshCurrent", _, _)
+THEN
+CharacterUseSkill(_Character, "Shout_OdinWater_HarshCurrent_Push", _Character, 1, 1, 1);
+//END_REGION
+
+//REGION OBHYDRO_Hydrobrand_OnHit
+IF
+    CharacterStatusAttempt(_Defender, "OdinHYDRO_HYDROBRAND_PROC", (CHARACTERGUID)_Attacker)
+AND
+    HasActiveStatus(_Attacker, "OdinWater_FROSTBLADE", 1)
+AND
+    HasActiveStatus(_Defender, "WET", 0)
+AND
+    NOT DB_OdinHYDRO_Hydrobrand(_Attacker, _Defender)
+THEN
+	DB_OdinHYDRO_Hydrobrand(_Attacker, _Defender);
+    ApplyStatus(_Defender, "WET", 6.0, 0, _Attacker);
+    ProcObjectTimer(_Defender, "Clear_DB_OdinHYDRO_Hydrobrand", 100);
+
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinHYDRO_Hydrobrand")
+AND
+    DB_OdinHYDRO_Hydrobrand(_Attacker, _Defender)
+THEN
+    NOT DB_OdinHYDRO_Hydrobrand(_Attacker, _Defender);
+//END_REGION
+
+//REGION OBHYDRO_Hydrobrand_DeltaModifier
+IF
+    CharacterStatusApplied(_Char, "OdinWater_FROSTBLADE", _)
+AND
+    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+AND
+    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinHYDRO_Hydrobrand")
+THEN
+    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinHYDRO_Hydrobrand");
+ //END_REGION
+EXITSECTION
+
+ENDEXITSECTION

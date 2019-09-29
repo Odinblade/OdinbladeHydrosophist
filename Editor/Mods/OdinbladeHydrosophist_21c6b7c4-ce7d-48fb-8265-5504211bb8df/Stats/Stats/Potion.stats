@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="48e63fff-81e0-42bb-ac51-39f5904b97be">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_FrostAura" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="22" enumeration_type_name="AttributeFlags" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" value="statIcons_FrostAura" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_HealingTears" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="VitalityBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

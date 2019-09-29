@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="d4bbd7d3-eef6-4a97-a253-7fe5d06f83ef">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_01" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#00aac5" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#00768e" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#a4d7e2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_02" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#2a4fd7" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#273b89" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#637fb7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_03" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#C0C0C0" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#34758D" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#c0c0c0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_04" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#c39a70" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF4169E1" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FFADD8E6" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

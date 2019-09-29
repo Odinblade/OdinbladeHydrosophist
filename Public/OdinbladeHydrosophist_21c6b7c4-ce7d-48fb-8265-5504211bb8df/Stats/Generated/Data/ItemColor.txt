@@ -1,0 +1,8 @@
+new itemcolor "OdinWater_01","00aac5","00768e","a4d7e2"
+
+new itemcolor "OdinWater_02","2a4fd7","273b89","637fb7"
+
+new itemcolor "OdinWater_03","C0C0C0","34758D","c0c0c0"
+
+new itemcolor "OdinWater_04","c39a70","FF4169E1","FFADD8E6"
+

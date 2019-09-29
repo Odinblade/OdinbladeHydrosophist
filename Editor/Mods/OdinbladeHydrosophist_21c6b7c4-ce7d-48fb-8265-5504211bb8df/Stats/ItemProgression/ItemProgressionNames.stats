@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a46ee13b-92c9-474f-9b83-2561b63cf414">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_ImprovisedTrident" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Improvised Trident" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="An Atlantean's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_UncommonTrident" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Swift Trident" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="An Atlantean's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_CommonTrident" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Atlantean Trident" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="An Atlantean's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_RareTrident" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Ocean's Trident" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="An Atlantean's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_EpicTrident" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Magnificent Trident" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="An Atlantean's signature weapon." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,7 @@
+new deltamod "Boost_Weapon_OdinHYDRO_Hydrobrand"
+param "BoostType" "BaseUncommon"
+param "MinLevel" "1"
+param "Frequency" "1"
+param "ModifierType" "Weapon"
+new boost "_Boost_OdinHYDRO_Hydrobrand",1
+

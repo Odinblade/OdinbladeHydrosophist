@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedSword_1H" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedShield" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_Molotov_A" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedSword_1H" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedShield" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_Molotov_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Frostsworn_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Fighter_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Fighter_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Fighter_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Fighter_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Fighter_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Humans" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Shield_Humans" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinWater_Trident" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_OilFlask_A" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinWater_Trident" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_OilFlask_A" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Atlantean_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Metamorph_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Metamorph_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Metamorph_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Metamorph_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Metamorph_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Metamorph_Spear_Humans" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Enchanter_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Enchanter_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Enchanter_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Enchanter_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Enchanter_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Wand_Water" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Wand_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Tidecaller_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Icevein_Preview" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Wizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Wizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Wizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Wizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Wizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Wand_Water" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Wand_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Icevein_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Class_Icevein_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Water" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinWater_IceElemental_Equip" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="_Summon_OdinWater_IceElemental" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,10 @@
+peafce
+peace
+maxout
+addSkill Wall_OdinWater_IceWall 
+nocooldowns
+addSkill Projectile_OdinWater_Bubblebeam 
+addSkill Projectile_LightningBolt 
+addSkill Projectile_OdinWater_IceShard 
+addSkill ProjectileStrike_HailStrike 
+[HistoryLimit]30

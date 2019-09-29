@@ -1,0 +1,6 @@
+new entry "OdinHYDRO_HYDROBRAND_PROC"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+

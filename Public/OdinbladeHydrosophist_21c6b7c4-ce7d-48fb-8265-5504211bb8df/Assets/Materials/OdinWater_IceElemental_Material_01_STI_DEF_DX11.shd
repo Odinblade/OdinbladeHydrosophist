@@ -1,0 +1,166 @@
+[Vertex shader]
+
+
+#include "Shaders/DX11/CommonHelpers.shdh"
+#include "Shaders/GlobalConstants_DX11.shdh"
+
+struct VertexInput
+{
+	float3 Position : POSITION0;
+	float4 InstanceMatrix1 : COLOR1;
+	float4 InstanceMatrix2 : COLOR2;
+	float4 InstanceMatrix3 : COLOR3;
+	float4 LocalQTangent : NORMAL0;
+	float2 TexCoords0 : TEXCOORD0;
+};
+
+struct VertexOutput
+{
+	float4 ProjectedPosition : SV_Position0;
+	float3 ViewNormal : TEXCOORD0;
+	float2 TexCoords0 : TEXCOORD1;
+};
+
+VertexOutput main(VertexInput In)
+{
+	VertexOutput Out;
+
+	//Create Instance World Matrix
+	float4 row1 = float4(In.InstanceMatrix1.x, In.InstanceMatrix1.w, In.InstanceMatrix2.z, In.InstanceMatrix3.y);
+	float4 row2 = float4(In.InstanceMatrix1.y, In.InstanceMatrix2.x, In.InstanceMatrix2.w, In.InstanceMatrix3.z);
+	float4 row3 = float4(In.InstanceMatrix1.z, In.InstanceMatrix2.y, In.InstanceMatrix3.x, In.InstanceMatrix3.w);
+	float4 row4 = float4(0.0f, 0.0f, 0.0f, 1.0f);
+	row_major float4x4 WorldMatrix = float4x4(row1, row2, row3, row4);
+
+	//World space position
+	float4 worldPosition = mul(WorldMatrix, float4(In.Position, 1.0f));
+
+	//Projected position
+	float4 projectedPosition = mul(global_ViewProjection, worldPosition);
+
+	//Pass projected position to pixel shader
+	Out.ProjectedPosition = projectedPosition;
+
+	//Compute local tangent frame
+	row_major float3x3 LocalTangentFrame = GetTangentFrame(In.LocalQTangent);
+
+	float3 LocalNormal = LocalTangentFrame[2];
+
+	//Normalize Local Normal
+	float3 localNormalNormalized = normalize(LocalNormal);
+
+	//World space Normal
+	float3 worldNormal = mul((float3x3)(WorldMatrix), localNormalNormalized);
+
+	//Normalize World Normal
+	float3 worldNormalNormalized = normalize(worldNormal);
+
+	float3 viewSpaceNormal = mul((float3x3)(global_View), worldNormalNormalized);
+
+	Out.ViewNormal = viewSpaceNormal;
+
+	Out.TexCoords0 = In.TexCoords0;
+
+	return Out;
+}
+
+
+[Fragment shader]
+
+
+#include "Shaders/DX11/CommonHelpers.shdh"
+#include "Shaders/DX11/PBR.shdh"
+
+struct PixelInput
+{
+	float4 ProjectedPosition : SV_Position0;
+	float3 ViewNormal : TEXCOORD0;
+	float2 TexCoords0 : TEXCOORD1;
+};
+
+struct PixelOutput
+{
+	float4 Color0 : SV_Target0;
+	float4 Color1 : SV_Target1;
+	float4 Color2 : SV_Target2;
+	float4 Color3 : SV_Target3;
+};
+
+uniform SamplerState _DefaultWrapSampler;
+uniform Texture2D Texture2DParameter_d5f0bbd13eaa417daf2f7f12ee516b17_DefaultWrapSampler;
+uniform Texture2D Texture2DParameter_e34b4ff04cbb4ec6b464e7b0efd7be9d_DefaultWrapSampler;
+uniform Texture2D Texture2DParameter_d05006397acf4612938d1d4da6812f16_DefaultWrapSampler;
+uniform float _OpacityFade;
+
+void CalculateMatBaseColor(float2 in_0,
+	out float3 out_0)
+{
+	float4 Local0 = Texture2DParameter_d5f0bbd13eaa417daf2f7f12ee516b17_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	float Local2 = Local0.w;
+	out_0 = Local1;
+}
+
+void CalculateMatMetalMask(float2 in_0,
+	out float out_0)
+{
+	float4 Local0 = Texture2DParameter_e34b4ff04cbb4ec6b464e7b0efd7be9d_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Convert normalmaps to tangent space vectors
+	Local0.xyzw = Local0.wzyx;
+	Local0.xyz = ((Local0.xyz * 2.0f) - 1.0f);
+	Local0.z = -(Local0.z);
+	Local0.xyz = normalize(Local0.xyz);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	out_0 = Local1.x;
+}
+
+void CalculateMatReflectance(float2 in_0,
+	out float out_0)
+{
+	float4 Local0 = Texture2DParameter_d5f0bbd13eaa417daf2f7f12ee516b17_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	float Local2 = Local0.w;
+	out_0 = Local2;
+}
+
+void CalculateMatRoughness(float2 in_0,
+	out float out_0)
+{
+	float4 Local0 = Texture2DParameter_d05006397acf4612938d1d4da6812f16_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	out_0 = Local1.x;
+}
+
+PixelOutput main(PixelInput In)
+{
+	PixelOutput Out;
+
+	float3 viewNormalNormalized = normalize(In.ViewNormal);
+
+	float3 matBaseColor;
+	CalculateMatBaseColor(In.TexCoords0, matBaseColor);
+	float matMetalMask;
+	CalculateMatMetalMask(In.TexCoords0, matMetalMask);
+	float matReflectance;
+	CalculateMatReflectance(In.TexCoords0, matReflectance);
+	float matRoughness;
+	CalculateMatRoughness(In.TexCoords0, matRoughness);
+	GBufferData gBufferData;
+	gBufferData.Emissive = float3(0.0f, 0.0f, 0.0f);
+	gBufferData.ViewSpaceNormal = viewNormalNormalized;
+	gBufferData.BaseColor = matBaseColor;
+	gBufferData.FadeOpacity = _OpacityFade;
+	gBufferData.Roughness = matRoughness;
+	gBufferData.Reflectance = matReflectance;
+	gBufferData.MetalMask = matMetalMask;
+	gBufferData.FXEmissive = true;
+	gBufferData.ShadingModel = 0;
+	gBufferData.Custom = float4(0.0f, 0.0f, 0.0f, 0.0f);
+	EncodeGBufferData(gBufferData, Out.Color0, Out.Color1, Out.Color2, Out.Color3);
+
+	return Out;
+}

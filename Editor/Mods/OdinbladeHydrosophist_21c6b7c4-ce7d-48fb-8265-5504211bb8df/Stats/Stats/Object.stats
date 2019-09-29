@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_Bubblebeam" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="cf669be3-c77d-4269-9e92-46e5d058c57a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_FreezingTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ff44aa32-92a9-4e9a-aa37-eb587616542a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_ChainHeal" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a4d37aea-d9b8-4ba6-bd0b-aaaad48d13aa" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_DampeningWave" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4076e172-c861-4cf0-9cef-d3976212cf6d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_RingOfFrost" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="42a9eb23-4a72-4620-b4cb-eeafacf227a5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_HarshCurrent" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="194fedde-f82e-4407-af53-289e7396c6ed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_Rebuke" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6c8f2c5f-20d2-4ccd-81da-536a97267d43" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_IceShard" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="cc782779-a23b-44ca-8084-3d0d0e65d060" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_Frostblade" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterStarter" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ac97c918-26af-4ca9-9888-9907b6d95b0b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_CryogenicStasis" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a3a4900c-32f4-4288-ba15-30c741f86fdb" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_ConjureIceElemental" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1; Summoning 1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="4bbf6c04-21ef-445c-b28f-0f563e6bca13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_ArcticRoar" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="75c7ce0f-e8c2-40ad-90a3-8a058137270e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_FrozenBulwark" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="734481f5-52b7-4c7c-ac94-786a16b38f93" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_IceBreaker" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="850f7646-6c0d-4af9-850c-94cd6d818575" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_GlobalCooling" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="b2db6248-342f-4066-b000-9a8321e1dbc2" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_Waterspout" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="13487efc-4561-4b87-b595-204d9f27f1f2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_ArcaneStitch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="e8ae046a-9780-42a1-839c-9c51beeab0bb" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_SteamLance" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="9f1e1389-a6e8-4acc-a239-026a973ad11a" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="800" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterSource" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_Shatter" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="29db00fb-0266-4a87-a7ea-673ea84e03c5" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_PrismaticBubble" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="78cc5fea-9101-46f7-aaad-b51c086c0419" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_Whirlpool" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6291a30b-2cd0-4181-9716-4ef23ec6ab60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_Waterfall" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="ec42cc6e-07e7-4a52-9d4e-3b3fdd4ab03d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_SongOfTheSeas" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="e1a3506f-cbf3-4f54-b499-fd5cabe12315" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILL_OdinWater_IceWall" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Generics" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="10000" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="-50" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="-25" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="9;1;4;3;5;6;7;8" enumeration_type_name="AttributeFlags" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_IceWall" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="64c4ea5a-df9b-4164-9ec2-16db4e1bb38a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_RideTheTide" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1600" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 5" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="d4ef6179-5117-4941-8528-ebfc3db97671" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_FuryOfTheNorth" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterLate" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="eb15bf75-fc5c-4e84-ab85-144edc3335c6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_OdinWater_ReleaseTheKraken" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5f94cf7a-eacb-4279-8293-c57950804bcd" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1900" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterSource" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_IcyVeins" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="1400" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterMid" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="8771ae20-d76c-4a30-8b5b-fb4e8483acd6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SKILLBOOK_Water_OdinWater_AegisAssault" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Skillbooks" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="190" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="SkillbookWater" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 2" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="SkillbookWaterEarly" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="6688644d-eef2-4259-afd3-ff18002fb9d8" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,15 @@
+new namegroup "OdinWater_ImprovisedTrident"
+add name "Improvised Trident","An Atlantean's signature weapon."
+
+new namegroup "OdinWater_UncommonTrident"
+add name "Swift Trident","An Atlantean's signature weapon."
+
+new namegroup "OdinWater_CommonTrident"
+add name "Atlantean Trident","An Atlantean's signature weapon."
+
+new namegroup "OdinWater_RareTrident"
+add name "Ocean's Trident","An Atlantean's signature weapon."
+
+new namegroup "OdinWater_EpicTrident"
+add name "Magnificent Trident","An Atlantean's signature weapon."
+

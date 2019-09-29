@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" time="1534630924" />
+    <version major="3" minor="6" revision="0" build="3" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="02ca48b9-e4ef-a8e4-91d7-0b9df70bb595" type="23" />
+            <attribute id="Name" value="OdinbladeHydrosophist" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="a7c00058-5298-488b-b78e-86afdf6335ba" type="23" />
+        </node>
+    </region>
+</save>

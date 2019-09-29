@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Tidecaller_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Enchanter_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_02" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Tidecaller_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Enchanter_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_02" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Tidecaller_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Enchanter_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_02" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Tidecaller_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Enchanter_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_02" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Tidecaller_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Enchanter_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_02" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Atlantean_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Metamorph_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Atlantean_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Metamorph_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Atlantean_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Metamorph_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Atlantean_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Metamorph_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Atlantean_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Metamorph_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_04" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Frostsworn_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Fighter_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_03" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Frostsworn_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Fighter_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_03" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Frostsworn_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Fighter_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_03" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Frostsworn_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Fighter_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_03" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Frostsworn_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Fighter_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_03" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Icevein_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Icevein_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Icevein_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Icevein_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Icevein_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinWater_01" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

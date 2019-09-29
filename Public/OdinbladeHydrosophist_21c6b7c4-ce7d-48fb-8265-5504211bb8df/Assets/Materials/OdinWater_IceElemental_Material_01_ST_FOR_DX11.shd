@@ -1,0 +1,196 @@
+[Vertex shader]
+
+
+#include "Shaders/DX11/CommonHelpers.shdh"
+#include "Shaders/GlobalConstants_DX11.shdh"
+
+struct VertexInput
+{
+	float3 Position : POSITION0;
+	float4 LocalQTangent : NORMAL0;
+	float2 TexCoords0 : TEXCOORD0;
+};
+
+struct VertexOutput
+{
+	float4 ProjectedPosition : SV_Position0;
+	float3 WorldNormal : TEXCOORD0;
+	float2 TexCoords0 : TEXCOORD1;
+	float3 WorldView : TEXCOORD2;
+	float HeightFog : TEXCOORD3;
+	float DistanceFog : TEXCOORD4;
+};
+
+cbuffer CB_PerInstance
+{
+	row_major float4x4 WorldMatrix;
+}
+
+VertexOutput main(VertexInput In)
+{
+	VertexOutput Out;
+
+	//World space position
+	float4 worldPosition = mul(WorldMatrix, float4(In.Position, 1.0f));
+
+	//Projected position
+	float4 projectedPosition = mul(global_ViewProjection, worldPosition);
+
+	//Pass projected position to pixel shader
+	Out.ProjectedPosition = projectedPosition;
+
+	//Compute local tangent frame
+	row_major float3x3 LocalTangentFrame = GetTangentFrame(In.LocalQTangent);
+
+	float3 LocalNormal = LocalTangentFrame[2];
+
+	//Normalize Local Normal
+	float3 localNormalNormalized = normalize(LocalNormal);
+
+	//World space Normal
+	float3 worldNormal = mul((float3x3)(WorldMatrix), localNormalNormalized);
+
+	//Normalize World Normal
+	float3 worldNormalNormalized = normalize(worldNormal);
+
+	Out.WorldNormal = worldNormalNormalized;
+
+	Out.TexCoords0 = In.TexCoords0;
+	//World space view vector
+	float3 worldView = (global_ViewPos.xyz - worldPosition.xyz);
+
+	Out.WorldView = worldView;
+
+	//Calculate Height Fog
+	float depthValue = saturate(((global_FogPropertyMatrix[3].y - length(worldView)) / (global_FogPropertyMatrix[3].y - global_FogPropertyMatrix[3].x)));
+	float heightDensity = ((worldPosition.y - global_FogPropertyMatrix[2].z) / global_FogPropertyMatrix[3].z);
+	float heightFog = saturate(max(depthValue, heightDensity));
+
+	Out.HeightFog = heightFog;
+
+	//Calculate Distance Fog
+	float distanceFog = saturate(((global_FogPropertyMatrix[2].y - length(worldView)) / (global_FogPropertyMatrix[2].y - global_FogPropertyMatrix[2].x)));
+
+	Out.DistanceFog = distanceFog;
+
+
+	return Out;
+}
+
+
+[Fragment shader]
+
+
+#include "Shaders/DX11/CommonHelpers.shdh"
+#include "Shaders/DX11/PBR.shdh"
+#include "Shaders/DX11/Exposure.shdh"
+#include "Shaders/DX11/ImageBasedLightingHelpers.shdh"
+#include "Shaders/GlobalConstants_PS_DX11.shdh"
+
+struct PixelInput
+{
+	float4 ProjectedPosition : SV_Position0;
+	float3 WorldNormal : TEXCOORD0;
+	float2 TexCoords0 : TEXCOORD1;
+	float3 WorldView : TEXCOORD2;
+	float HeightFog : TEXCOORD3;
+	float DistanceFog : TEXCOORD4;
+};
+
+struct PixelOutput
+{
+	float4 Color0 : SV_Target0;
+};
+
+uniform float _OpacityFade;
+uniform SamplerState _DefaultWrapSampler;
+uniform Texture2D Texture2DParameter_d5f0bbd13eaa417daf2f7f12ee516b17_DefaultWrapSampler;
+uniform Texture2D Texture2DParameter_e34b4ff04cbb4ec6b464e7b0efd7be9d_DefaultWrapSampler;
+uniform Texture2D Texture2DParameter_d05006397acf4612938d1d4da6812f16_DefaultWrapSampler;
+
+void CalculateMatBaseColor(float2 in_0,
+	out float3 out_0)
+{
+	float4 Local0 = Texture2DParameter_d5f0bbd13eaa417daf2f7f12ee516b17_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	float Local2 = Local0.w;
+	out_0 = Local1;
+}
+
+void CalculateMatMetalMask(float2 in_0,
+	out float out_0)
+{
+	float4 Local0 = Texture2DParameter_e34b4ff04cbb4ec6b464e7b0efd7be9d_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Convert normalmaps to tangent space vectors
+	Local0.xyzw = Local0.wzyx;
+	Local0.xyz = ((Local0.xyz * 2.0f) - 1.0f);
+	Local0.z = -(Local0.z);
+	Local0.xyz = normalize(Local0.xyz);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	out_0 = Local1.x;
+}
+
+void CalculateMatReflectance(float2 in_0,
+	out float out_0)
+{
+	float4 Local0 = Texture2DParameter_d5f0bbd13eaa417daf2f7f12ee516b17_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	float Local2 = Local0.w;
+	out_0 = Local2;
+}
+
+void CalculateMatRoughness(float2 in_0,
+	out float out_0)
+{
+	float4 Local0 = Texture2DParameter_d05006397acf4612938d1d4da6812f16_DefaultWrapSampler.Sample(_DefaultWrapSampler, in_0);
+	//[Local0] Get needed components
+	float3 Local1 = Local0.xyz;
+	out_0 = Local1.x;
+}
+
+PixelOutput main(PixelInput In)
+{
+	PixelOutput Out;
+
+	//Normalize World Normal
+	float3 worldNormalNormalized = normalize(In.WorldNormal);
+
+	float3 matBaseColor;
+	CalculateMatBaseColor(In.TexCoords0, matBaseColor);
+	float matMetalMask;
+	CalculateMatMetalMask(In.TexCoords0, matMetalMask);
+	float matReflectance;
+	CalculateMatReflectance(In.TexCoords0, matReflectance);
+	matReflectance = RemapReflectance(matReflectance);
+	float matRoughness;
+	CalculateMatRoughness(In.TexCoords0, matRoughness);
+	matRoughness = max(0.09f, matRoughness);
+	float3 FinalColor = float3(0.0f, 0.0f, 0.0f);
+
+	//Calculate Image Based Lighting
+	//Normalized world space view vector
+	float3 worldViewNormalized = normalize(In.WorldView);
+
+	float3 iblDiffuse;
+	float3 iblSpecular;
+	EvaluateDistantIBL(matBaseColor, matRoughness, float3(matReflectance, matReflectance, matReflectance), matMetalMask, worldNormalNormalized, worldViewNormalized, iblDiffuse, iblSpecular);
+	FinalColor = ((FinalColor + iblDiffuse) + iblSpecular);
+
+	float3 LightDiffuseColorOut;
+	float3 LightSpecularColorOut;
+	DirectionLight(worldNormalNormalized, worldViewNormalized, global_LightPropertyMatrix, matBaseColor, matReflectance, matRoughness, matMetalMask, LightDiffuseColorOut, LightSpecularColorOut);
+	FinalColor = ((FinalColor + LightDiffuseColorOut) + LightSpecularColorOut);
+
+	FinalColor = PreExpose(FinalColor);
+
+	FinalColor = lerp(global_FogPropertyMatrix[1].xyz, FinalColor, float3(In.HeightFog, In.HeightFog, In.HeightFog));
+	FinalColor = lerp(global_FogPropertyMatrix[0].xyz, FinalColor, float3(In.DistanceFog, In.DistanceFog, In.DistanceFog));
+
+	Out.Color0 = float4(FinalColor, _OpacityFade);
+	Out.Color0 = max(Out.Color0, 0.0f);
+
+	return Out;
+}

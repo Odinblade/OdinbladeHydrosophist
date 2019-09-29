@@ -1,0 +1,24 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION
+IF
+SavegameLoaded(_,_,_,_)
+THEN
+TimerLaunch("OdinHYDRO_WAITFORWARNING", 900);
+
+IF
+TimerFinished("OdinHYDRO_WAITFORWARNING")
+AND
+DB_IsPlayer(_Player)
+AND
+NOT GlobalGetFlag("OdinCORE_PREVENTWARNING", 1)
+THEN
+GlobalSetFlag("OdinCORE_PREVENTWARNING");
+OpenMessageBox(_Player, "<font size='30'>WARNING!</font><br>My spidey-senses tell me that you are running an Odinblade mod without having <font color='#fbd478'>OdinCore</font> installed! Please install it otherwise there may be in-game issues!");
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION

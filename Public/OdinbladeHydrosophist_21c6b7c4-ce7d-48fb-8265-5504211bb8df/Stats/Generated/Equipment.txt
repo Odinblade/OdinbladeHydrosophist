@@ -1,0 +1,226 @@
+new equipment "OdinWater_Class_Frostsworn_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedSword_1H"
+add equipmentgroup
+add equipment entry "WPN_CraftedShield"
+add equipmentgroup
+add equipment entry "GRN_Grenade_Molotov_A"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinWater_Class_Frostsworn_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedSword_1H"
+add equipmentgroup
+add equipment entry "WPN_CraftedShield"
+add equipmentgroup
+add equipment entry "GRN_Grenade_Molotov_A"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinWater_Class_Frostsworn_Preview"
+add equipmentgroup
+add equipment entry "ARM_Fighter_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Fighter_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Fighter_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Fighter_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Fighter_Boots"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Humans"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Shield_Humans"
+
+new equipment "OdinWater_Class_Atlantean_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_OdinWater_Trident"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "GRN_Grenade_OilFlask_A"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinWater_Class_Atlantean_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_OdinWater_Trident"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "GRN_Grenade_OilFlask_A"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinWater_Class_Atlantean_Preview"
+add equipmentgroup
+add equipment entry "ARM_Metamorph_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Metamorph_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Metamorph_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Metamorph_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Metamorph_Boots"
+add equipmentgroup
+add equipment entry "WPN_Metamorph_Spear_Humans"
+
+new equipment "OdinWater_Class_Tidecaller_Preview"
+add equipmentgroup
+add equipment entry "ARM_Enchanter_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Enchanter_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Enchanter_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Enchanter_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Enchanter_Boots"
+add equipmentgroup
+add equipment entry "WPN_Wand_Water"
+add equipmentgroup
+add equipment entry "WPN_Wand_Water"
+
+new equipment "OdinWater_Class_Tidecaller_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+
+new equipment "OdinWater_Class_Tidecaller_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+
+new equipment "OdinWater_Class_Icevein_Preview"
+add equipmentgroup
+add equipment entry "ARM_Wizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Wizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Wizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Wizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_Wizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_Wand_Water"
+add equipmentgroup
+add equipment entry "WPN_Wand_Water"
+
+new equipment "OdinWater_Class_Icevein_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinWater_Class_Icevein_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Water"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "Summon_OdinWater_IceElemental_Equip"
+add equipmentgroup
+add equipment entry "_Summon_OdinWater_IceElemental"
+

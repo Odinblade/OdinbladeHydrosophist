@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_FreezingTouch" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="110" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF(Enemy):OdinWater_PROC_HYPOTHERMIA,100,1;CHILLED,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1;" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBHYDRO_Skill_ChillingTouch" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Chilling Touch" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target and &lt;font color=&quot;#cfecff&quot;&gt;Chill&lt;/font&gt; a nearby character, dealing [1]. &lt;br&gt;&lt;br&gt;Hitting a &lt;font color=&quot;#cfecff&quot;&gt;Chilled&lt;/font&gt; or &lt;font color=&quot;#cfecff&quot;&gt;Frozen&lt;/font&gt; enemy with this skill applies &lt;font color=&quot;#cfecff&quot;&gt;Hypothermia&lt;/font&gt; for 2 turns, dealing [2] each turn and reducing &lt;font color=&quot;#4197e2&quot;&gt;Water Resistance by [3]%&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Weapon:Damage_OdinWater_Hypothermia:Damage;Potion:Stats_OdinWater_Hypothermia:WaterResistance;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_IceSpellHand_Prepare_001:Dummy_R_HandFX;RS3_FX_Skills_Water_Prepare_Earth_Root_01,Detach" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Self_Earth_Root_02,KeepRot;RS3_FX_Skills_Water_WinterBlast_Hand_Cast_001:Dummy_R_HandFX;RS3_FX_Skills_Water_IceSpellHand_Cast_001:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_WinterBlast_Base_CastTarget_001:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_WinterBlast_Base_CastTarget_001:root:cast" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Death Type" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Restoration" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="REGENERATION,100,2;IF(!Dead):OdinWater_BURSTHEAL_PROC,100,0;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Water_Restoration" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Restoration" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Restore [1] to the target on-cast and at the start of the next 2 turns. Cleanses &lt;font color=&quot;#65c900&quot;&gt;Poisoned&lt;/font&gt;, &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, and &lt;font color=&quot;#c80030&quot;&gt;Bleeding&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Additionally, the target is also healed for &lt;font color=#97fbff&gt;10% max Vitality&lt;/font&gt; on-cast." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Divine_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Skills_Water_Prepare_Divine_Hand_01:Dummy_R_HandFX:hand01;RS3_FX_Skills_Water_Prepare_Divine_Hand_02:Dummy_L_HandFX:hand02" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_water_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Self_Water_Root_01;RS3_FX_Skills_Water_Cast_Self_Water_Hand_01:Dummy_L_HandFX;RS3_FX_Skills_Water_Cast_Self_Water_Hand_01:Dummy_R_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Restoration_Impact_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Restoration_Impact_01:root:cast" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="StatusData:REGENERATION:HealAmount" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FrostyShell" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="MAGIC_SHELL,100,3;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Water_FrostyShell" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armour of Frost" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Ice forms a defensive barrier around the target, providing [1]. &lt;br&gt;&lt;br&gt;Cleanses &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, &lt;font color=&quot;#00aa00&quot;&gt;Poisoned&lt;/font&gt;, &lt;font color=&quot;#7d71d9&quot;&gt;Stunned&lt;/font&gt;, &lt;font color=&quot;#cfecff&quot;&gt;Frozen&lt;/font&gt;, &lt;font color=&quot;#797980&quot;&gt;Suffocating&lt;/font&gt;, and &lt;font color=&quot;#7f3d00&quot;&gt;Petrified&lt;/font&gt; from the target." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_MagicShell:MagicArmor" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root:foot01;RS3_FX_Skills_Water_Prepare_Earth_Foot_02,KeepRot:Dummy_Root:foot02;RS3_FX_Skills_Water_Prepare_Earth_Root_01,KeepRot:Dummy_Root:root01" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_earth_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_earth_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Self_Earth_Root_01:Dummy_Root:hand01;RS3_FX_Skills_Water_Cast_Self_Earth_Hand_01:Dummy_L_HandFX:hand01;RS3_FX_Skills_Water_Cast_Self_Earth_Hand_01:Dummy_R_HandFX:hand01" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_FrostyShell_Impact_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_FrostyShell_Impact_Root_01:root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CryogenicStasis" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF(Ally):PERMAFROST,100,1;IF(Enemy):OdinWater_DEEPFREEZE,100,1;IF(Enemy):OdinWater_NOCHECK_HYPOTHERMIA,100,0" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Water_CryogenicStasis" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Cryogenic Stasis" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Place target &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt; or an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt; without any &lt;font color=&quot;#188ede&quot;&gt;Magic Armour&lt;/font&gt; into an &lt;font color=&quot;#cfecff&quot;&gt;icy stasis&lt;/font&gt;, cleansing ailments and preventing all damage dealt for 1 turn: &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#88a25b&quot;&gt;Ally&lt;/font&gt;: Restores [1] upon thawing. &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#aa3938&quot;&gt;Enemy&lt;/font&gt;: Deals [2] upon thawing. Applies &lt;font color=&quot;#cfecff&quot;&gt;Hypothermia&lt;/font&gt; for 2 turns, dealing [3] each turn and reducing &lt;font color=&quot;#4197e2&quot;&gt;Water Resistance by [4]%&lt;/font&gt;. &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#cfecff&quot;&gt;Chills&lt;/font&gt; characters upon thawing." />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Water_Root_01_WaterFrost,KeepRot,Detach;RS3_FX_Skills_Water_Prepare_Water_Hand_01_WaterFrost:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_fire_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Cone_Air_Hand_01:Dummy_L_Hand,Dummy_R_Hand" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Ground_Fire_Root_02:Dummy_Root;RS3_FX_Skills_Water_Cast_Ground_Fire_Root_02_Texkey:Dummy_Root:cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="StatusData:PERMAFROST_HEAL:HealAmount;Weapon:Damage_OdinWater_DeepFreeze:Damage;Weapon:Damage_OdinWater_Hypothermia:Damage;Potion:Stats_OdinWater_Rooted:WaterResistance;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Summon_FreezingTouch" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="110" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF(Enemy):OdinWater_PROC_HYPOTHERMIA,100,1;CHILLED,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBHYDRO_Skill_ChillingTouch" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Freezing Touch" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target and &lt;font color=&quot;#cfecff&quot;&gt;Chill&lt;/font&gt; a nearby character, dealing [1]. &lt;br&gt;&lt;br&gt;Hitting a &lt;font color=&quot;#cfecff&quot;&gt;Chilled&lt;/font&gt; or &lt;font color=&quot;#cfecff&quot;&gt;Frozen&lt;/font&gt; enemy with this skill applies &lt;font color=&quot;#cfecff&quot;&gt;Hypothermia&lt;/font&gt; for 2 turns, dealing [2] each turn and reducing &lt;font color=&quot;#4197e2&quot;&gt;Water Resistance by [3]%&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Weapon:Damage_OdinWater_Hypothermia:Damage;Potion:Stats_OdinWater_Hypothermia:WaterResistance;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_IceSpellHand_Prepare_001:Dummy_R_HandFX;RS3_FX_Skills_Water_Prepare_Earth_Root_01,Detach" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Self_Earth_Root_02,KeepRot;RS3_FX_Skills_Water_WinterBlast_Hand_Cast_001:Dummy_R_HandFX;RS3_FX_Skills_Water_IceSpellHand_Cast_001:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_WinterBlast_Base_CastTarget_001:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_WinterBlast_Base_CastTarget_001:root:cast" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillTier" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Death Type" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Summon_FrostyShell" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="MAGIC_SHELL,100,3;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Water_FrostyShell" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armour of Frost" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Ice forms a defensive barrier around the target, providing [1]. &lt;br&gt;&lt;br&gt;Cleanses &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, &lt;font color=&quot;#7d71d9&quot;&gt;Stunned&lt;/font&gt;, &lt;font color=&quot;#7f3d00&quot;&gt;Petrified&lt;/font&gt;, &lt;font color=&quot;#c9aa58&quot;&gt;Diseased&lt;/font&gt;, &lt;font color=&quot;#46b195&quot;&gt;Cursed&lt;/font&gt;, and &lt;font color=&quot;#b823cb&quot;&gt;Decaying&lt;/font&gt; from the target." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_MagicShell:MagicArmor" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root:foot01;RS3_FX_Skills_Water_Prepare_Earth_Foot_02,KeepRot:Dummy_Root:foot02;RS3_FX_Skills_Water_Prepare_Earth_Root_01,KeepRot:Dummy_Root:root01" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_earth_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_earth_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Self_Earth_Root_01:Dummy_Root:hand01;RS3_FX_Skills_Water_Cast_Self_Earth_Hand_01:Dummy_L_HandFX:hand01;RS3_FX_Skills_Water_Cast_Self_Earth_Hand_01:Dummy_R_HandFX:hand01" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_FrostyShell_Impact_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_FrostyShell_Impact_Root_01:root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WinterBlast" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF(Enemy):OdinWater_PROC_HYPOTHERMIA,100,1;CHILLED,100,1;Freeze;Douse;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Water_WinterBlast" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Winter Blast" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and &lt;font color=&quot;#cfecff&quot;&gt;Chill&lt;/font&gt; characters in the target area. &lt;br&gt;&lt;br&gt;This skill &lt;font color=&quot;#cfecff&quot;&gt;freezes&lt;/font&gt; any &lt;font color=&quot;#c80030&quot;&gt;blood&lt;/font&gt; and &lt;font color=&quot;#4197e2&quot;&gt;water surfaces&lt;/font&gt; in the area. &lt;br&gt;&lt;br&gt;Hitting a &lt;font color=&quot;#cfecff&quot;&gt;Chilled&lt;/font&gt; or &lt;font color=&quot;#cfecff&quot;&gt;Frozen&lt;/font&gt; enemy with this skill applies &lt;font color=&quot;#cfecff&quot;&gt;Hypothermia&lt;/font&gt; for 2 turns, dealing [2] each turn and reducing &lt;font color=&quot;#4197e2&quot;&gt;Water Resistance by [3]%&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Weapon:Damage_OdinWater_Hypothermia:Damage;Potion:Stats_OdinWater_Hypothermia:WaterResistance;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Water_Root_01_Snow,KeepRot;RS3_FX_Skills_Water_Prepare_Water_Hand_01_Snow:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Target_Voodoo_Root_01_Snow" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_WinterBlast_Impact_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_WinterBlast_Impact_01:root:cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_FrozenBulwark" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="OdinWater_FROZENBULWARK,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 3" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBHYDRO_Skill_FrozenBulwark" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Frozen Bulwark" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Enchant your target with a mystical barrier for 2 turns, providing [1] and &lt;font color=&quot;#188ede&quot;&gt;[4]% max. Magic Armour&lt;/font&gt;. &lt;font color=&quot;#cfecff&quot;&gt;Frozen Bulwark&lt;/font&gt; also provides &lt;font color=&quot;#4197e2&quot;&gt;[2]% Water Resistance&lt;/font&gt; at the cost of &lt;font color=&quot;#fe6e27&quot;&gt;[3]% Fire Resistance&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Removes &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, &lt;font color=&quot;#fe6e27&quot;&gt;Necrofire&lt;/font&gt;, &lt;font color=&quot;#fe6e27&quot;&gt;Bleed Fire&lt;/font&gt;, and &lt;font color=&quot;#cfecff&quot;&gt;Frozen&lt;/font&gt; upon cast. &lt;br&gt;&lt;br&gt;Whilst enchanted, the target is immune from &lt;font color=&quot;#cfecff&quot;&gt;Freezing&lt;/font&gt; and &lt;font color=&quot;#c9aa58&quot;&gt;Slipping&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_OdinWater_FrozenBulwark:MagicArmor;Potion:Stats_OdinWater_FrozenBulwark:WaterResistance;Potion:Stats_OdinWater_FrozenBulwark:FireResistance;Potion:Stats_OdinWater_FrozenBulwark:MagicArmorBoost;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_earth_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Earth_Foot_01,KeepRot,Detach:Dummy_Root:foot01;RS3_FX_Skills_Water_Prepare_Earth_Foot_02,KeepRot:Dummy_Root:foot02;RS3_FX_Skills_Water_Prepare_Earth_Root_01,KeepRot:Dummy_Root:root01" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_earth_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_earth_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Self_Earth_Root_01:Dummy_Root:hand01;RS3_FX_Skills_Water_Cast_Self_Earth_Hand_01:Dummy_L_HandFX:hand01;RS3_FX_Skills_Water_Cast_Self_Earth_Hand_01:Dummy_R_HandFX:hand01" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_FrostyShell_Impact_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_FrostyShell_Impact_Root_01:root:cast" />
+        <field name="CleanseStatuses" type="StringStatObjectFieldDefinition" value="BURNING;NECROFIRE;FIREBLOOD;" />
+        <field name="StatusClearChance" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArcaneStitch" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF(Character):OdinWater_ARCANESTITCH,100,0" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Water_ArcaneStitch" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Arcane Stitch" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Restore &lt;font color=&quot;#97fbff&quot;&gt;50%&lt;/font&gt; of the target's &lt;font color=&quot;#188ede&quot;&gt;max. Magic Armour&lt;/font&gt; (plus bonuses). &lt;br&gt;&lt;br&gt;Cleanses &lt;font color=&quot;#cfecff&quot;&gt;Frozen&lt;/font&gt;, &lt;font color=&quot;#7d71d9&quot;&gt;Stunned&lt;/font&gt;, &lt;font color=&quot;#7f3d00&quot;&gt;Petrified&lt;/font&gt;, &lt;font color=&quot;#797980&quot;&gt;Suffocating&lt;/font&gt;, &lt;font color=&quot;#00aa00&quot;&gt;Poisoned&lt;/font&gt;, &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, &lt;font color=&quot;#fe6e27&quot;&gt;Necrofire&lt;/font&gt;, &lt;font color=&quot;#c9aa58&quot;&gt;Terrified&lt;/font&gt;, &lt;font color=&quot;#cfecff&quot;&gt;Silenced&lt;/font&gt;, &lt;font color=&quot;#c80030&quot;&gt;Taunted&lt;/font&gt;, and &lt;font color=&quot;#c9aa58&quot;&gt;Madness&lt;/font&gt; from the target." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Prepare_Divine_Farsight_Root_01,KeepRot:Dummy_Root;RS3_FX_Skills_Divine_Prepare_Divine_Farsight_Hand_01:Dummy_R_HandFX;RS3_FX_Skills_Divine_Prepare_Divine_Hand_01:Dummy_R_HandFX:hand01;RS3_FX_Skills_Divine_Prepare_Divine_Hand_02:Dummy_L_HandFX:hand02" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_divine_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_divine_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Cast_Aoe_Farsight_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Cast_Aoe_Divine_Root_02:root:cast" />
+        <field name="CleanseStatuses" type="StringStatObjectFieldDefinition" value="FROZEN;STUNNED;PETRIFIED;PLAGUE;SUFFOCATING;POISONED;BURNING;NECROFIRE;FEAR;MUTED;TAUNTED;MADNESS" />
+        <field name="StatusClearChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Ally;!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CleanseWounds" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="CLEANSE_WOUNDS,100,1;TargetCreateSurface,1,,Water" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1; WarriorLore 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Water_CleanseWounds" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Cleanse Wounds" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Instantly restores &lt;font color=&quot;#cfecff&quot;&gt;[1]&lt;/font&gt; to the target, and create a small &lt;font color=&quot;#4197e2&quot;&gt;water surface&lt;/font&gt; beneath them. &lt;br&gt;&lt;br&gt;Cleanses &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, &lt;font color=&quot;c9aa58&quot;&gt;Diseased&lt;/font&gt;, &lt;font color=&quot;#b823cb&quot;&gt;Decaying&lt;/font&gt;, &lt;font color=&quot;#00aa00&quot;&gt;Poisoned&lt;/font&gt;, and &lt;font color=&quot;#c80030&quot;&gt;Bleeding&lt;/font&gt;. &lt;br&gt;&lt;br&gt;This skill may be used on &lt;font color=&quot;#aa3938&quot;&gt;Undead enemies&lt;/font&gt;." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Divine_Root_01,KeepRot,Detach:Dummy_Root;RS3_FX_Skills_Water_Prepare_Water_Hand_02:Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Hand_03:Dummy_R_HandFX;RS3_FX_Skills_Water_Cast_Hand_Textkey_01:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Divine_Impact_01:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Divine_Impact_01:Dummy_BodyFX:cast" />
+        <field name="CleanseStatuses" type="StringStatObjectFieldDefinition" value="BURNING;DECAYING_TOUCH;DISEASED;POISONED;BLEEDING;" />
+        <field name="StatusClearChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="StatusData:CLEANSE_WOUNDS:HealAmount;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="VampiricHunger" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="VAMPIRISM,100,2" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 1; RogueLore 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Enemy;!Dead" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Water_VampiricHunger" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Vampiric Hunger" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Initiate a terrible thirst in a target &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt;, setting &lt;font color=&quot;#4197e2&quot;&gt;Vampiric Hunger&lt;/font&gt; for 2 turns, adding &lt;font color=&quot;#b823cb&quot;&gt;50% Life Steal&lt;/font&gt; for its duration. &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#b823cb&quot;&gt;Life Steal&lt;/font&gt; heals the user based on any &lt;font color=&quot;#c80030&quot;&gt;non-Piercing&lt;/font&gt; damage they deal to &lt;font color=&quot;#c80030&quot;&gt;Vitality&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_Vampirism:LifeSteal" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_VampiricHunger_Root_01,KeepRot;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_VampiricHunger_HandFX_01:Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_VampiricHunger_Root_01;RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_VampiricHunger_Hand_01:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_VampiricHunder_Impact_Root_01:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_VampiricHunder_Impact_Root_01:Dummy_BodyFX:cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Ally;!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_ReleaseTheKraken" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="145" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF(Enemy):OdinWater_DROWNING,100,2;WET,100,2;IF(Enemy):OdinWater_WATERSPOUT_PROC,100,0;CreateSurface,8,,Water,100;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="WaterSpecialist 4" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;!Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBHYDRO_Skill_ReleaseTheKraken" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Release the Kraken!" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deep from the depths, the &lt;font color=&quot;#4197e2&quot;&gt;Kraken&lt;/font&gt; emerges at target location, dealing [1] and applying &lt;font color=&quot;#4197e2&quot;&gt;Drowning&lt;/font&gt; for 2 turns, dealing [2] each turn. &lt;br&gt;&lt;br&gt;Enemies without &lt;font color=&quot;#188ede&quot;&gt;Magic Armour&lt;/font&gt; are also &lt;font color=#a8a8a8&quot;&gt;Knocked-Down&lt;/font&gt; for 1 turn." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Weapon:Damage_OdinWater_Drowning:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_air_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="OdinWater_Prepare_Root_01,KeepRot;" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_AoE_Water_Root_01;OdinWater_Prepare_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="OdinWater_Cast_Target_01" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="OdinWater_Cast_Target_01" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Thrash" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillRequirement" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="25" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Death Type" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBHYDRO_Skill_Thrash" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Trident Thrash" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Strike the target 5 times with your trident, each hit dealing [1]." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Weapons_Prepare_Weapon_Root_01,KeepRot;RS3_FX_Items_Weapons_Prepare_Weapon_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_flurry_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_flurry_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Weapons_Cast_Weapon_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Items_Weapons_Cast_Weapon_Root_01:root" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Weapons_Impact_Weapon_Flurry_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Items_Weapons_Impact_Weapon_Flurry_Root_01:root:cast" />
+        <field name="OverrideMinAP" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="WET,20,1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Enemy_FreezingTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_FreezingTouch" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinWater_Enemy_FrozenBulwark" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinWater_FrozenBulwark" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
