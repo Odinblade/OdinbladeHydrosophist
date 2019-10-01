@@ -1,29 +1,14 @@
 treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
-new treasuretable "ST_OdinWater_Trader"
+new treasuretable "ST_OdinWater_NewSkills"
 new subtable "1,1"
 StartLevel "1"
 object category "I_SKILLBOOK_Water_OdinWater_Bubblebeam",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Water_HailStrike",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "1"
 object category "I_SKILLBOOK_Water_OdinWater_FreezingTouch",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "1"
 object category "I_SKILLBOOK_Water_OdinWater_Frostblade",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Water_Rain",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Water_Restoration",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Water_FrostyShell",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Water_IceFan",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "4"
 object category "I_SKILLBOOK_Water_OdinWater_IceShard",1,0,0,0,0,0,0,0
@@ -32,13 +17,10 @@ StartLevel "4"
 object category "I_SKILLBOOK_Water_OdinWater_HarshCurrent",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "4"
+object category "I_SKILLBOOK_Water_OdinWater_AegisAssault",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
 object category "I_SKILLBOOK_Water_OdinWater_ArcticRoar",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Water_WinterBlast",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Water_FrostAura",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "4"
 object category "I_SKILLBOOK_Water_OdinWater_ConjureIceElemental",1,0,0,0,0,0,0,0
@@ -47,22 +29,13 @@ StartLevel "9"
 object category "I_SKILLBOOK_Water_OdinWater_DampeningWave",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "9"
-object category "I_SKILLBOOK_Water_ChainHeal",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
 object category "I_SKILLBOOK_Water_OdinWater_FrozenBulwark",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Water_GlobalCooling",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Water_CryogenicStasis",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "9"
 object category "I_SKILLBOOK_Water_OdinWater_IceWall",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "9"
-object category "I_SKILLBOOK_Water_SteamLance",1,0,0,0,0,0,0,0
+object category "I_SKILLBOOK_Water_OdinWater_IcyVeins",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "13"
 object category "I_SKILLBOOK_Water_OdinWater_Rebuke",1,0,0,0,0,0,0,0
@@ -80,19 +53,10 @@ StartLevel "13"
 object category "I_SKILLBOOK_Water_OdinWater_SongOfTheSeas",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "13"
-object category "I_SKILLBOOK_Water_ArcaneStitch",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
 object category "I_SKILLBOOK_OdinWater_ReleaseTheKraken",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "16"
 object category "I_SKILLBOOK_Water_OdinWater_Waterfall",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "16"
-object category "I_SKILLBOOK_Water_Shatter",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "16"
-object category "I_SKILLBOOK_Water_IceBreaker",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "16"
 object category "I_SKILLBOOK_Water_OdinWater_RingOfFrost",1,0,0,0,0,0,0,0
@@ -102,6 +66,49 @@ object category "I_SKILLBOOK_Water_OdinWater_PrismaticBubble",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "16"
 object category "I_SKILLBOOK_Water_OdinWater_RideTheTide",1,0,0,0,0,0,0,0
+new treasuretable "ST_OdinWater_Trader"
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Water_HailStrike",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Water_Rain",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Water_Restoration",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Water_FrostyShell",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Water_IceFan",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Water_WinterBlast",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Water_FrostAura",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Water_ChainHeal",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Water_GlobalCooling",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Water_CryogenicStasis",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Water_SteamLance",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Water_ArcaneStitch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Water_Shatter",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Water_IceBreaker",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "16"
 object category "I_SKILLBOOK_Water_HailAttack",1,0,0,0,0,0,0,0
@@ -127,11 +134,8 @@ new subtable "1,1"
 StartLevel "13"
 object category "I_SKILLBOOK_Water_VampiricHungerAura",1,0,0,0,0,0,0,0
 new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Water_OdinWater_IcyVeins",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Water_OdinWater_AegisAssault",1,0,0,0,0,0,0,0
+StartLevel "1"
+object category "T_ST_OdinWater_NewSkills",1,0,0,0,0,0,0,0
 new treasuretable "ST_OdinWaterWeapon"
 new subtable "1,1"
 object category "OdinWater_Trident",1,1,0,0,0,0,0,0
@@ -160,3 +164,19 @@ new subtable "0,1;1,1;2,1"
 StartLevel "9"
 object category "OdinWATER_Swords_Water_2H",1,0,0,1,0,0,0,0
 object category "OdinWATER_Swords_Water_2H",1,0,0,0,1,0,0,0
+new treasuretable "ST_Skillbook_WaterTrainer"
+CanMerge 1
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinWater_NewSkills",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinWaterWeapon",1,0,0,0,0,0,0,0
+new treasuretable "FTJ_SkillbookWater"
+CanMerge 1
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinWater_NewSkills",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinWaterWeapon",1,0,0,0,0,0,0,0

@@ -278,4 +278,4 @@ DB_ARX_Barracks_2ndFloor_Archives_SurfaceTypes 2
 DB_ARX_Pipes_SurfaceTransformations 2
 DB_RC_WH_AmbushersOne 2
 DB_GLO_ExperienceAgent 1OpenMessageBoxChoice 3
-DB_ApplyPreset 2DialogGetInvolvedNPC 2
+DB_ApplyPreset 2DialogGetInvolvedNPC 2IsSwitch 1

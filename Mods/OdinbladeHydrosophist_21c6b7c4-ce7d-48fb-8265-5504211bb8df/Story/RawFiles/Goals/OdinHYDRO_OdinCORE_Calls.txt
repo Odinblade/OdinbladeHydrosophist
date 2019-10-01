@@ -1,0 +1,30 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_OBCORE_EnemySkill_Pair("","");
+DB_OBCORE_EnemySkill_Pair("Rain_EnemyWater","Projectile_OdinWater_Enemy_Bubblebeam");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyIceFan","Cone_OdinWater_Enemy_DampeningWave");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyFrostAura","Target_OdinWater_Enemy_FreezingTouch");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_FuryOfTheNorth");
+DB_OBCORE_EnemySkill_Pair("Target_EnemyWinterBlast","Target_OdinWater_Enemy_FrozenBulwark");
+
+// DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
+//Fort Joy
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_3b1211fc-6860-4fea-a2c6-4b272439df54, "OdinWater_Vendor_01"); //Fort Joy - Square
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_001_c38d1ed7-a2df-4dd6-bb77-de9fd0539b7e, "OdinWater_Vendor_01"); //Fort Joy - Armadia
+
+//Reaper's Coast
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_001_b09c5a13-d414-4c61-839a-87b61d6c899a, "OdinWater_Vendor_01"); //Lady Vengeance
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_5ea33ae2-7b67-4793-9238-44571aad86fc, "OdinWater_Vendor_01"); //Driftwood Square
+
+//Nameless Isle
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_001_b09c5a13-d414-4c61-839a-87b61d6c899a, "OdinWater_Vendor_01"); //Lady Vengeance (carried over)
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_d65d9121-6a44-458b-b0f8-d14d3449c30e, "OdinWater_Vendor_01"); //Landing beach
+
+//Arx
+DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_118967b5-5b82-4ce4-b657-0edfe05dfb74, "OdinWater_Vendor_01"); //Arx Square
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
