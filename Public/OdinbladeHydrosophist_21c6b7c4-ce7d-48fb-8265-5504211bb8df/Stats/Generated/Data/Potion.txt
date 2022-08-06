@@ -13,3 +13,8 @@ data "Act part" "0"
 data "VitalityBoost" "10"
 data "MagicArmorBoost" "15"
 
+new entry "Stats_OdinWater_DomeWet"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "Flags" "BurnImmunity;"

@@ -40,7 +40,7 @@ new subtable "1,1"
 StartLevel "13"
 object category "I_SKILLBOOK_Water_OdinWater_Rebuke",1,0,0,0,0,0,0,0
 new subtable "1,1"
-StartLevel "13"
+StartLevel "9"
 object category "I_SKILLBOOK_Water_OdinWater_FuryOfTheNorth",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "13"

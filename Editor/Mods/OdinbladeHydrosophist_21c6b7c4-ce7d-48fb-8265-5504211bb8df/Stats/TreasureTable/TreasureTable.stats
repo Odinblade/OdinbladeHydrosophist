@@ -133,7 +133,7 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinWater_NewSkills_substat_9" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Water_OdinWater_FuryOfTheNorth" />
         <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />

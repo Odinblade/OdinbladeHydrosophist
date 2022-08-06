@@ -38,4 +38,5 @@ data "Memory Cost" "1"
 data "Magic Cost" "0"
 data "RainEffect" "RS3_FX_Environment_Rain_01"
 data "ConsequencesStartTime" "1000"
+data "CycleConditions" "Character;!Dead"
 
