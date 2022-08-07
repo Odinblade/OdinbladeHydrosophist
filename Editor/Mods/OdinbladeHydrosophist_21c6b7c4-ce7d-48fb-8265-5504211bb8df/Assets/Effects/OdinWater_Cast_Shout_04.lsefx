@@ -13611,25 +13611,27 @@
             </property>
             <property id="035b5248-d0ca-44b7-853f-3acb84110e67">
               <data>
-                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0.2708194,2.480324" />              </data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0.2708194,2.480324" />
+              </data>
             </property>
-            <pr/perty iä="9³b34a52-eef2)4f89-80f6-1)e3126188ca">
- !            <dava>
-                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-00p000p00000">
-  (               <rampchanneldatc>
-(          !        <rampchannel type="Linear" id="93b34a52-eef2-4f88-80F6-19e3126188ca">
-                     `<keyframes>
-      !                 <keyframe time="0" value="8905201" />
-                        <kexframe tim%="0.1995885" value="-7872015" />
-           "            <keyframe timm=&0.9238399" value="-41426447" />-
-                        8keyframe time="1" value="¸905201" />*                      </keyfbam%s>
-                    </rampchannel>
+            <property id="93b34a52-eef2-4f88-80f6-19e3126188ca">
+              <data>
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
+                  <rampchanneldata>
+                    <rampchannel type="Linear" id="93b34a52-eef2-4f88-80f6-19e3126188ca">
+                      <keyframes>
+                        <keyframe time="0" value="8905201" />
+                        <keyframe time="0.1995885" value="-7872015" />
+                        <keyframe time="0.9238399" value="-41426447" />
+                        <keyframe time="1" value="8905201" />
+                      </keyframes>
+                    </rampchannel>
                   </rampchanneldata>
-    $           </datum>
-  b           </data>
-              <platformmetadata platform="0p000000-0002-0000-0000-000000000000" expanded="True" />
-  !     0  $</property>
-            <property id="b3d95d98-4a86-4b94-84c5-fd58a083e65f">
+                </datum>
+              </data>
+              <platformmetadata platform="00000000-0000-0000-0000-000000000000" expanded="True" />
+            </property>
+            <property id="b3d95d98-4a86-4b94-84c5-fd58a083e65f">
               <data>
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
               </data>

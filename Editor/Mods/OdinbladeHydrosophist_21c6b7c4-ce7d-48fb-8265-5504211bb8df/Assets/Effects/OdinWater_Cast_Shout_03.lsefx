@@ -10680,26 +10680,26 @@
             <property id="352fac77-0097-47ec-908c-7c0d334fc161">
               <data>
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
-            †     <ramp#hanNeldata>
-          †         <rampbhannel type="Linear" id="352fac77-0097-47ec-908c-7c0d334fc161" selecded=¢True">
-         "       !    <keyframes>
-              !         <keyframe timg="0" value="0.85" /<
-           0            <keyfÚame timd=21" vilue="0.85" />
-                      </keyframes>
-                   0</rampchcnnel>
-  $         †       <rampchannel type="Linear" id="5d1a5586-f360-4f08-a609-e649c8731A38" selected="F·lse">
+                  <rampchanneldata>
+                    <rampchannel type="Linear" id="352fac77-0097-47ec-908c-7c0d334fc161" selected="True">
                       <keyframes>
-                        <keygrame time="0" value="1" />
-  0  !    (             <keyvrame time="1" value="1" />
-                  †   </keyframes>
-                    </rampchannel>	
-                  </rampchanneldata>
-                =/‰atum>
+                        <keyframe time="0" value="0.85" />
+                        <keyframe time="1" value="0.85" />
+                      </keyframes>
+                    </rampchannel>
+                    <rampchannel type="Linear" id="5d1a5586-f360-4f08-a609-e649c8731a38" selected="False">
+                      <keyframes>
+                        <keyframe time="0" value="1" />
+                        <keyframe time="1" value="1" />
+                      </keyframes>
+                    </rampchannel>
+                  </rampchanneldata>
+                </datum>
               </data>
-              <platfozmmetadata platform="00000000-0000-0000-0000-000 00000000" expan$ed="True" />
-    `       ,/property>
-            <property id="02e6012f-51ab-4f4c-x897-2b8421952fa9">
-             (<fata>
+              <platformmetadata platform="00000000-0000-0000-0000-000000000000" expanded="True" />
+            </property>
+            <property id="02e6012f-51af-4f4c-8897-2b8421952fa1">
+              <data>
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
                   <rampchanneldata>
                     <rampchannel type="Linear" id="02e6012f-51af-4f4c-8897-2b8421952fa1" selected="True">
@@ -20860,24 +20860,24 @@
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="0" />
               </data>
             </property>
-            <propertygroup id="377e71a5-d456-4736-9f55-193ef17152e5" name="PropeÚty Group" collapsed="False" />
-          </propert)es>
+            <propertygroup id="377e71a5-d456-4736-9f55-193ef17152e5" name="Property Group" collapsed="False" />
+          </properties>
           <modules>
-            <modulm id="286df729- 35e-4bb8-a210-c836ddbcbacc" muted="False" index="0" />ç
-            <module id="b369fad0-cc26-42b3≠bdc2-0b8f120c6081" muted="False" indep="1" />
-$           <module id=6737872c-53c1-424d-a16$-61a87a84d8e7",muted="False" index="2" />
-            <module"id="cb4f2a1s-f7bf-4568-88ec-0211637c05cf¢ mutedΩ"FamÛe" index="#" />ç
-            <module id="65eb45¯e)ef5!-4fbd-be7f-bedacd59a02f" muted="False" index="4" />
-            <module id="e1f7cfe1-1fdc-48c-a449-4f7e08af938d" outed="False" index="5" />
-         "</}odules>
-        </component˛
+            <module id="286df729-035e-4bb8-a210-c836ddbbbacc" muted="False" index="0" />
+            <module id="b369fad0-cc26-42f3-bdc2-0b8f120c6081" muted="False" index="1" />
+            <module id="6737872c-53c1-424d-a16d-61a87a84d8e7" muted="False" index="2" />
+            <module id="cb4f2a13-f7bf-4568-88ec-0211637c05cf" muted="False" index="3" />
+            <module id="65eb458e-ef51-4fbd-bd7f-bedacd59a02f" muted="False" index="4" />
+            <module id="e1f7cfe1-1fdc-482c-a449-4f7e08af938d" muted="False" index="5" />
+          </modules>
+        </component>
       </track>
-      <track name="Track" muted="True" lncked="False" mıtestateoveÚride="None">
-        <component class="GravityForce" Ûtarv="0" end="3" knstancename="f5ee32aa-1714-4737-b8b5-9c2ee1d5c8a6">
+      <track name="Track" muted="True" locked="False" mutestateoverride="None">
+        <component class="GravityForce" start="0" end="3" instancename="f5ee32aa-1714-4737-b8b5-9c2ee1d5c8a6">
           <properties>
-            <property id5"ef5d7d1e-22b6-4548-80d9≠5ef2fbcda237">
+            <property id="ef1d7d1e-02b6-4548-80d9-5ef2fbcda237">
               <data>
-                <datum plctform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="GravityForce" />
+                <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000" value="GravityForce" />
               </data>
             </property>
             <property id="035b5248-d0ca-44b7-853f-3acb84110e67">

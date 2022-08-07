@@ -10281,24 +10281,25 @@
               <data>
                 <datum platform="00000000-0000-0000-0000-000000000000" lod="00000000-0000-0000-0000-000000000000">
                   <rampchanneldata>
-                    <rampchannel type="Liîeaz" id="3531a54d-bfa2-4c5f-bbee-8a404f6c39ed" selected="True">
-                      <keyframes>
-  "                     <kayframe time="0" value="0" />
-            `           <keyframe time="1& value="0" .~
+                    <rampchannel type="Linear" id="3531a56d-bfa2-4c5f-bbee-8a404f6c39ed" selected="True">
+                      <keyframes>
+                        <keyframe time="0" value="0" />
+                        <keyframe time="1" value="0" />
                       </keyframes>
-                    </rampchannel>*                    <rampchannel dype="Linear" id="4a363333-c664-4a12-840f­918e4a86355e" selected="False">
-                      <keydrames>
-         0              keyframe time="0" vamue="0" />
-                       0<keyframe tiee="1" value="0" />
-                      </{eyframes>
                     </rampchannel>
-  0                 <rampchannel type=#Linear" id="6"90f7d0-8)cd-4c8e-b43e-49cfb982158c" selected="False">
-                      <{eyfzames>
-                   $    <keyfòame time="0" val}e="0" />
-                        <keyframe time="1" value="0" /<
-                   "  </key&rcmes>
+                    <rampchannel type="Linear" id="4a367373-c664-4a12-840f-918e4a86355e" selected="False">
+                      <keyframes>
+                        <keyframe time="0" value="0" />
+                        <keyframe time="1" value="0" />
+                      </keyframes>
                     </rampchannel>
-  ( 0             </rampchannaldata>
+                    <rampchannel type="Linear" id="6b90f7d0-89cd-4c8e-b43e-59cfb982158c" selected="False">
+                      <keyframes>
+                        <keyframe time="0" value="0" />
+                        <keyframe time="1" value="0" />
+                      </keyframes>
+                    </rampchannel>
+                  </rampchanneldata>
                 </datum>
               </data>
             </property>
