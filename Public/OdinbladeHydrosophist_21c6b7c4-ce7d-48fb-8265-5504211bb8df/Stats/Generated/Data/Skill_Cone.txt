@@ -131,4 +131,3 @@ using "Cone_OdinWater_DampeningWave"
 data "ForGameMaster" "No"
 data "IsEnemySkill" "Yes"
 data "Memory Cost" "0"
-
