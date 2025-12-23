@@ -1,33 +1,6 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_OBCORE_EnemySkill_Pair("","");
-DB_OBCORE_EnemySkill_Pair("Rain_EnemyWater","Projectile_OdinWater_Enemy_Bubblebeam");
-
-DB_OBCORE_EnemySkill_Pair_Level("Rain_EnemyWater","Cone_OdinWater_Enemy_DampeningWave", 8);
-
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyIceShard","Shout_OdinWater_Enemy_RideTheTide", 12);
-DB_OBCORE_EnemySkill_Pair_Level("Rain_EnemyWater","Shout_OdinWater_Enemy_RideTheTide", 12);
-
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyChainHeal","Shout_OdinWater_Enemy_SongOfTheSeas", 6);
-DB_OBCORE_EnemySkill_Pair("Target_EnemyArcaneStitch","Shout_OdinWater_Enemy_SongOfTheSeas");
-
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyFrostAura","Shout_OdinWater_Enemy_Frostblade");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyFrostAura","Target_OdinWater_Enemy_FreezingTouch");
-
-DB_OBCORE_EnemySkill_Pair_Level("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_Waterspout", 6);
-
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyIceBreaker","Shout_OdinWater_Enemy_ArcticRoar");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_ArcticRoar");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_FuryOfTheNorth");
-
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyBouncingShield","Projectile_OdinWater_Enemy_AegisAssault");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyBouncingShield","Target_OdinWater_Enemy_FrozenBulwark");
-
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyIceFan","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
-DB_OBCORE_EnemySkill_Pair_Level("ProjectileStrike_EnemyHailStrike","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyWinterBlast","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
-
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
 DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_3b1211fc-6860-4fea-a2c6-4b272439df54, "OdinWater_Vendor_01"); //Fort Joy - Square
@@ -43,7 +16,46 @@ DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_d65d9121-6a44-458b-b0f8-d14d34
 
 //Arx
 DB_OBCORE_CustomVendor(OdinWater_Skill_Trader_000_118967b5-5b82-4ce4-b657-0edfe05dfb74, "OdinWater_Vendor_01"); //Arx Square
+
 KBSECTION
+IF
+GameStarted(_, _)
+THEN
+PROC_OBHYDRO_ConfigureEnemySkills();
+
+IF
+SavegameLoaded(_,_,_,_)
+THEN
+PROC_OBHYDRO_ConfigureEnemySkills();
+
+PROC
+PROC_OBHYDRO_ConfigureEnemySkills()
+THEN
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Projectile_OdinWater_Enemy_Bubblebeam");
+
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Cone_OdinWater_Enemy_DampeningWave", 8);
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceShard","Shout_OdinWater_Enemy_RideTheTide", 12);
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Shout_OdinWater_Enemy_RideTheTide", 12);
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyChainHeal","Shout_OdinWater_Enemy_SongOfTheSeas", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyArcaneStitch","Shout_OdinWater_Enemy_SongOfTheSeas");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFrostAura","Shout_OdinWater_Enemy_Frostblade");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFrostAura","Target_OdinWater_Enemy_FreezingTouch");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_Waterspout", 6);
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyIceBreaker","Shout_OdinWater_Enemy_ArcticRoar");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_ArcticRoar");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_FuryOfTheNorth");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyBouncingShield","Projectile_OdinWater_Enemy_AegisAssault");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyBouncingShield","Target_OdinWater_Enemy_FrozenBulwark");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
+PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyHailStrike","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWinterBlast","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
 
 EXITSECTION
 
