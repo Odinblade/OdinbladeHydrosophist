@@ -33,18 +33,19 @@ PROC_OBHYDRO_ConfigureEnemySkills()
 THEN
 PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Projectile_OdinWater_Enemy_Bubblebeam");
 
-PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Cone_OdinWater_Enemy_DampeningWave", 8);
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Cone_OdinWater_Enemy_DampeningWave", 9);
 
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceShard","Shout_OdinWater_Enemy_RideTheTide", 12);
-PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Shout_OdinWater_Enemy_RideTheTide", 12);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceShard","Shout_OdinWater_Enemy_RideTheTide", 13);
+PROC_OBCORE_AddEnemySkillEntry("Rain_EnemyWater","Shout_OdinWater_Enemy_RideTheTide", 13);
 
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyChainHeal","Shout_OdinWater_Enemy_SongOfTheSeas", 6);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyChainHeal","Shout_OdinWater_Enemy_SongOfTheSeas");
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyArcaneStitch","Shout_OdinWater_Enemy_SongOfTheSeas");
 
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFrostAura","Shout_OdinWater_Enemy_Frostblade");
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFrostAura","Target_OdinWater_Enemy_FreezingTouch");
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_Waterspout", 6);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_Waterspout", 9);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyIceBreaker","Shout_OdinWater_Enemy_Waterspout", 9);
 
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyIceBreaker","Shout_OdinWater_Enemy_ArcticRoar");
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy_ArcticRoar");
@@ -53,9 +54,9 @@ PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyGlobalCooling","Shout_OdinWater_Enemy
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyBouncingShield","Projectile_OdinWater_Enemy_AegisAssault");
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyBouncingShield","Target_OdinWater_Enemy_FrozenBulwark");
 
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
-PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyHailStrike","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWinterBlast","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 8);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyIceFan","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 9);
+PROC_OBCORE_AddEnemySkillEntry("ProjectileStrike_EnemyHailStrike","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 9);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWinterBlast","ProjectileStrike_OdinWater_Enemy_RingOfFrost", 9);
 
 EXITSECTION
 
