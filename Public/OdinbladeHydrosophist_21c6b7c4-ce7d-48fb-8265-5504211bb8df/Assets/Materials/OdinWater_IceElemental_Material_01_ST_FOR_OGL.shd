@@ -106,7 +106,7 @@ void CalculateMatMetalMask(vec2 in_0,
 	vec4 Local0 = texture(Texture2DParameter_e34b4ff04cbb4ec6b464e7b0efd7be9d_DefaultWrapSampler, in_0);
 	//[Local0] Convert normalmaps to tangent space vectors
 	Local0.xyzw = Local0.wzyx;
-	Local0.xyz = ((Local0.xyz * 2.0f) - 1.0f);
+	Local0.xyz = ((Local0.xyz * 2.0f) - vec3(1.0f));
 	Local0.z = -(Local0.z);
 	Local0.xyz = normalize(Local0.xyz);
 	//[Local0] Get needed components
